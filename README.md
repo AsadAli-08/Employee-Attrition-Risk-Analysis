@@ -184,11 +184,11 @@ employee-attrition-risk-analysis
 
 │ └── historical attrition analysis
 
-│ └── attrition risk prediction
+│ └── attrition risk predictive analysis
 
-│ └── employee risk register
+│ └── attrition risk register
 
-│ └── attrition driver & diagnostics
+│ └── attrition diagnostic analysis
 
 │
 
