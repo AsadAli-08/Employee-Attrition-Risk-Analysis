@@ -128,15 +128,15 @@ e) Attrition Driver Diagnostics : Analysis of factors influencing attrition risk
 
 **9. Key Insights**
 
-a) Employees with high Incentive Volatility are at higher risk of resigning.
+Analysis of employee attrition drivers indicates that resignation risk is primarily influenced by three factors:
 
-b) Employees with more absence days in past 6 months are at higher risk of resigning.
+a) Current Performance Score – Employees with low performance scores show significantly higher attrition probability, making this the strongest driver.
 
-c) Risk of Resignation declines with age of employee.
+b) Incentive Volatility – High variability in incentive payouts is strongly associated with increased resignation risk.
 
-d) Employees with higher Salary growth have lower risk of Resignation.
+c) Early Career Employees (Age / Tenure) – Younger employees and those with shorter tenure exhibit elevated attrition risk.
 
-e) Resignation risk declines with increase in Compa Ratio.
+These findings suggest that performance engagement, incentive stability, and early career retention initiatives should be prioritized to reduce attrition risk.
 
 **10. Project Architecture**
 
