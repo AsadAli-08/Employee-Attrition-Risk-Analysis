@@ -34,7 +34,7 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
 
 ## **Data Model**
 
-### *Fact Data Tables*
+### *Master Data Tables*
 
 *  Employee master data : PROJECT_EMP_MASTER
 
@@ -52,7 +52,10 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
 
 *  Job Rotation data: PROJECT_POSITION_MASTER
 
-Note: Due to confidentiality restrictions, the original dataset is not included in this repository.
+### *Fact Data Tables*
+
+### *Dimension Data Tables*
+
 
 ## **Feature Engineering**
 
