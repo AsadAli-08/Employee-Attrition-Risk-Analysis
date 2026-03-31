@@ -90,6 +90,10 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
       
 ### *Feature Data Tables (ORACLE DB)*
 
+*  PROJECT_SNAP_EMP_MONTH
+    *  EMP_ID
+    *  Snapshot Month
+ 
 *  PROJECT_FT_ABSENCE
     *  EMP_ID
     *  Snapshot Month
@@ -118,15 +122,55 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
     *  Resignation Same Unit Grade
 
 *  PROJECT_FT_TRAINING_DAYS
+    *  EMP_ID
+    *  Snapshot Month
+    *  Training Days (6 Months)
+      
 *  PROJECT_FT_POS_CHNG_COUNT
+    *  EMP_ID
+    *  Snapshot Month
+    *  Position Change Count
+
 *  PROJECT_FT_PERF_SLOPE
+    *  EMP_ID
+    *  Snapshot Month
+    *  Current Score
+    *  Score 2 Periods Back
+    *  Perf Slope
+      
 *  PROJECT_FT_PERF_DELTA
+    *  EMP_ID
+    *  Snapshot Month
+    *  Curr Score
+    *  Prev Score
+    *  Perf Delta
+
 *  PROJECT_FT_MONTHS_SINCE_PROM
+    *  EMP_ID
+    *  Snapshot Month
+    *  Promotion Count
+    *  Monce Since Promotion
+    *  Stagflation
+        
 *  PROJECT_FT_INCENTIVE_VOLATILITY
+    *  EMP_ID
+    *  Snapshot Month
+    *  Incentive Volatility
+      
 *  PROJECT_FT_INCENTIVE_SUM
+    *  EMP_ID
+    *  Snapshot Month
+    *  Incentive (Last 3 Years)
+      
 *  PROJECT_FT_RESIG_FLAG
-*  PROJECT_SNAP_EMP_MONTH
-*  
+    *  EMP_ID
+    *  Snapshot Month
+    *  Resig Flag
+    *  Resig Date
+    *  Resig Type
+    *  Resig Reason
+      
+
 
 ### *Fact Data Tables*
 
