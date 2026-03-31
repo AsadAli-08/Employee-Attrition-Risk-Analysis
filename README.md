@@ -169,6 +169,30 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
     *  Resig Date
     *  Resig Type
     *  Resig Reason
+ 
+*  PROJECT_MONTHLY_SNAPSHOT_TB
+    *  EMP_ID
+    *  Snapshot Month
+    *  Age (YY)
+    *  Function
+    *  Cadre Code
+    *  Grade Code
+    *  Unit Code
+    *  Location Code
+    *  Tenure (MM)
+    *  Training Days (Last 36 Months)
+    *  Position Change Count
+    *  Perf Slope
+    *  Curr Perf Score
+    *  Perf Delta
+    *  Months Since Promotion
+    *  Promotion Count
+    *  Stagflation
+    *  Incentive Volatility
+    *  Incentive Last 3 Years
+    *  Resignation Flag
+    *  Resignation Same Unit Grade
+    *  A
       
 
 
