@@ -170,7 +170,7 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
     *  Resig Type
     *  Resig Reason
  
-*  PROJECT_MONTHLY_SNAPSHOT_TB
+*  PROJECT_MONTHLY_SNAPSHOT
     *  EMP_ID
     *  Snapshot Month
     *  Age (YY)
@@ -190,12 +190,16 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
     *  Stagflation
     *  Incentive Volatility
     *  Incentive Last 3 Years
-    *  Resignation Flag
     *  Resignation Same Unit Grade
-    *  A
+    *  Absence Days (6 Months)
+    *  Absence Rate (3 Months)
+    *  Absence Rate (30 Days)
+    *  Absence Spike
+    *  Salary Growth
+    *  Compa Ratio
+    *  Below Peer Flag
+    *  Resignation Flag
       
-
-
 ### *Fact Data Tables*
 
 *  FACT_Employee_Master
