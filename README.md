@@ -87,6 +87,46 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
     * From Date
     * End Date
     * Position ID
+      
+### *Feature Data Tables (ORACLE DB)*
+
+*  PROJECT_FT_ABSENCE
+    *  EMP_ID
+    *  Snapshot Month
+    *  Absence Days (6 Months)
+    *  Absence Rate (3 Months)
+    *  Absence Rate (30 Days)
+    *  Absence Spike
+
+*  PROJECT_FT_COMPA_RATIO
+    *  EMP_ID
+    *  Snapshot Month
+    *  Current Salary
+    *  Compa Ratio
+    *  Below Peer Flag
+  
+*  PROJECT_FT_SALARY
+    *  EMP_ID
+    *  Snapshot Month
+    *  Salary Growth
+
+*  PROJECT_FT_RESIG_UNIT_GRADE
+    *  EMP_ID
+    *  Snapshot Month
+    *  Unit
+    *  Grade
+    *  Resignation Same Unit Grade
+
+*  PROJECT_FT_TRAINING_DAYS
+*  PROJECT_FT_POS_CHNG_COUNT
+*  PROJECT_FT_PERF_SLOPE
+*  PROJECT_FT_PERF_DELTA
+*  PROJECT_FT_MONTHS_SINCE_PROM
+*  PROJECT_FT_INCENTIVE_VOLATILITY
+*  PROJECT_FT_INCENTIVE_SUM
+*  PROJECT_FT_RESIG_FLAG
+*  PROJECT_SNAP_EMP_MONTH
+*  
 
 ### *Fact Data Tables*
 
