@@ -67,12 +67,26 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
     * Performance Score
 
 *  Absence history : PROJECT_ABSENCE_MASTER
+    * EMP_ID
+    * From Date
+    * End Date
 
 *  Payroll data : PROJECT_SALARY_MASTER
+    * EMP_ID
+    * From Date
+    * End Date
+    * Salary Amount
 
 *  Incentive data : PROJECT_INCENTIVE_MASTER
+    * EMP_ID
+    * Incentive Date
+    * Incentive Amount
 
 *  Job Rotation data: PROJECT_POSITION_MASTER
+    * EMP_ID
+    * From Date
+    * End Date
+    * Position ID
 
 ### *Fact Data Tables*
 
