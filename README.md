@@ -378,15 +378,35 @@ The attrition prediction model uses Logistic Regression.
 
 The Power BI dashboard provides several analytical views:
 
-*  Executive Overview : Summary metrics for attrition trends and workforce risk.
+*  Executive Overview :
+    * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
+    * KPIs :
+    * Visuals :
+    * Observations :  
 
-*  Attrition History : Historical attrition patterns across departments and locations.
+*  Attrition History :
+    * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
+    * KPIs :
+    * Visuals :
+    * Observations :
 
-*  Attrition Risk Prediction : Identification of employees with high predicted attrition probability.
+*  Attrition Risk Prediction :
+    * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
+    * KPIs :
+    * Visuals :
+    * Observations :
 
-*  Employee Risk Register : Detailed list of employees with high resignation probability.
+*  Employee Risk Register :
+    * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
+    * KPIs :
+    * Visuals :
+    * Observations :
 
-*  Attrition Driver Diagnostics : Analysis of factors influencing attrition risk.
+*  Attrition Driver Diagnostics :
+    * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
+    * KPIs :
+    * Visuals :
+    * Observations :
 
 ## **Key Insights**
 
