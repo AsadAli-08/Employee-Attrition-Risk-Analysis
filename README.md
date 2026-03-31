@@ -6,11 +6,18 @@ This project develops a predictive analytics system to identify employees at hig
 
 The project integrates Oracle SQL, Python machine learning, and Power BI dashboards to deliver actionable workforce insights.
 
-## **Problem Statement**
+## **Problem Objectives**
 
-Organizations often struggle to identify employees who are likely to resign. Traditional HR reporting focuses only on historical attrition.
-
-This project builds a predictive attrition risk model that enables proactive employee retention strategies.
+*  Develop a workforce planning engine to forecast headcount requirements over a 6–12 month horizon
+*  Estimate future workforce supply by incorporating attrition risk and expected employee exits
+*  Model business-driven workforce demand using growth projections and historical hiring trends
+*  Identify workforce gaps (shortage/surplus) across roles, grades, and locations
+*  Generate data-driven hiring plans aligned with projected gaps and hiring capacity
+*  Enable scenario-based planning (e.g., high attrition, growth surge, hiring freeze) for strategic decision-making
+*  Provide actionable insights to HR and leadership for proactive talent management
+*  Build an interactive dashboard (Power BI) to visualize forecasts, gaps, and hiring strategies
+*  Integrate predictive outputs (attrition model) into a prescriptive decision-making framework
+*  Support cost and workforce optimization by aligning hiring strategy with business needs
 
 ## **Tools & Technologies**
 
