@@ -28,21 +28,21 @@ This project builds a predictive attrition risk model that enables proactive emp
 
 The dataset used in this project includes employee-level HR information such as:
 
-a) Employee master data : PROJECT_EMP_MASTER
+*  Employee master data : PROJECT_EMP_MASTER
 
-b) Career progression : PROJECT_PROMOTION_MASTER
+*  Career progression : PROJECT_PROMOTION_MASTER
 
-c) Training records : PROJECT_TRAINING_MASTER
+*  Training records : PROJECT_TRAINING_MASTER
 
-d) Performance ratings : PROJECT_PERF_MASTER
+*  Performance ratings : PROJECT_PERF_MASTER
 
-e) Absence history : PROJECT_ABSENCE_MASTER
+*  Absence history : PROJECT_ABSENCE_MASTER
 
-f) Payroll data : PROJECT_SALARY_MASTER
+*  Payroll data : PROJECT_SALARY_MASTER
 
-g) Incentive data : PROJECT_INCENTIVE_MASTER
+*  Incentive data : PROJECT_INCENTIVE_MASTER
 
-h) Job Rotation data: PROJECT_POSITION_MASTER
+*  Job Rotation data: PROJECT_POSITION_MASTER
 
 Note: Due to confidentiality restrictions, the original dataset is not included in this repository.
 
@@ -52,87 +52,87 @@ Several predictive features were created to capture behavioral and compensation 
 
 Key engineered features include:
 
-a) training_days_36m : Training Days in last 3 years
+*  training_days_36m : Training Days in last 3 years
 
-b) pos_chng_count : Position Changes in last 3 years
+*  pos_chng_count : Position Changes in last 3 years
 
-c) perf_slope : (Current Performance Score – Previous Performance Score)/2
+*  perf_slope : (Current Performance Score – Previous Performance Score)/2
 
-d) curr_score : Latest Score
+*  curr_score : Latest Score
 
-e) Perf_delta : Current – Previous Score
+*  Perf_delta : Current – Previous Score
 
-f) months_since_prom : Months since last promotion
+*  months_since_prom : Months since last promotion
 
-g) prom_count : Total Promotions since Joining
+*  prom_count : Total Promotions since Joining
 
-h) stagflation : 1 is no promotion in last 3 years
+*  stagflation : 1 is no promotion in last 3 years
 
-i) incentive_volatility : Standard deviation of last 4 incentives
+*  incentive_volatility : Standard deviation of last 4 incentives
 
-j) incentive_sum_last3y : Total Incentive in last 3 years
+*  incentive_sum_last3y : Total Incentive in last 3 years
 
-k) absence_days_6m : Total Absence Days in last 6 months
+*  absence_days_6m : Total Absence Days in last 6 months
 
-l) absence_rate_3m : Absence Days in last 3 months/ 90
+*  absence_rate_3m : Absence Days in last 3 months/ 90
 
-m) absence_rate_30d : Absence Days in last 30 days / 30
+*  absence_rate_30d : Absence Days in last 30 days / 30
 
-n) absence_spike : absence_rate_30d/ absence_rate_3m
+*  absence_spike : absence_rate_30d/ absence_rate_3m
 
-o) sal_growth : Change/ Salary 12m ago
+*  sal_growth : Change/ Salary 12m ago
 
-p) compa_ratio : Employee salary/median salary of unit/grade
+*  compa_ratio : Employee salary/median salary of unit/grade
 
-q) below_peer_flag : Y if comparatio <0.95
+*  below_peer_flag : Y if comparatio <0.95
 
-r) Unit : Organisational Unit
+*  Unit : Organisational Unit
 
-s) Location : Location of Unit
+*  Location : Location of Unit
 
-t) Tenure_mm : Tenure in months
+*  Tenure_mm : Tenure in months
 
-u) Age_yy : Age in years
+*  Age_yy : Age in years
 
-v) Function : Function (Job Specialisation)
+*  Function : Function (Job Specialisation)
 
-w) Resig_flag : Y if Resigned in coming 6 months
+*  Resig_flag : Y if Resigned in coming 6 months
 
-x) resig_same_unit_grade : Resigned same unit/grade in past 12 months
+*  resig_same_unit_grade : Resigned same unit/grade in past 12 months
 
 ## **Machine Learning Model**
 
 The attrition prediction model uses Logistic Regression.
 
-a) Target Variable : RESIG_FLAG
+*  Target Variable : RESIG_FLAG
 
-b) Model Output : Probability of employee resignation
+*  Model Output : Probability of employee resignation
 
-c) Model performance metric : ROC AUC Score
+*  Model performance metric : ROC AUC Score
 
 ## **Power BI Dashboard**
 
 The Power BI dashboard provides several analytical views:
 
-a) Executive Overview : Summary metrics for attrition trends and workforce risk.
+*  Executive Overview : Summary metrics for attrition trends and workforce risk.
 
-b) Attrition History : Historical attrition patterns across departments and locations.
+*  Attrition History : Historical attrition patterns across departments and locations.
 
-c) Attrition Risk Prediction : Identification of employees with high predicted attrition probability.
+*  Attrition Risk Prediction : Identification of employees with high predicted attrition probability.
 
-d) Employee Risk Register : Detailed list of employees with high resignation probability.
+*  Employee Risk Register : Detailed list of employees with high resignation probability.
 
-e) Attrition Driver Diagnostics : Analysis of factors influencing attrition risk.
+*  Attrition Driver Diagnostics : Analysis of factors influencing attrition risk.
 
 ## **Key Insights**
 
 Analysis of employee attrition drivers indicates that resignation risk is primarily influenced by three factors:
 
-a) Current Performance Score – Employees with low performance scores show significantly higher attrition probability, making this the strongest driver.
+*  Current Performance Score – Employees with low performance scores show significantly higher attrition probability, making this the strongest driver.
 
-b) Incentive Volatility – High variability in incentive payouts is strongly associated with increased resignation risk.
+*  Incentive Volatility – High variability in incentive payouts is strongly associated with increased resignation risk.
 
-c) Early Career Employees (Age / Tenure) – Younger employees and those with shorter tenure exhibit elevated attrition risk.
+*  Early Career Employees (Age / Tenure) – Younger employees and those with shorter tenure exhibit elevated attrition risk.
 
 These findings suggest that performance engagement, incentive stability, and early career retention initiatives should be prioritized to reduce attrition risk.
 
@@ -156,41 +156,6 @@ Machine Learning Model
 
 Power BI Dashboard
 
-## **GitHub Repository Structure**
-
-Employee-attrition-risk-analysis
-
-├── sql
-
-│ ├── feature_engineering
-
-│ └── snapshot_creation
-
-│ └── data_validation
-
-│
-
-├── python
-
-│ └── attrition_analysis_project.ipynb
-
-│
-
-|── powerbi screenshots
-
-│ ├── executive summary (Screenshot)
-
-│ └── historical attrition analysis
-
-│ └── attrition risk predictive analysis
-
-│ └── attrition risk register
-
-│ └── attrition diagnostic analysis
-
-│
-
-└── readme.md
 
 ## **Disclaimer**
 
