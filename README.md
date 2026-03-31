@@ -22,15 +22,15 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
 
 ## **Tools & Technologies**
 
-*  Oracle SQL : Data extraction and feature engineering
+*  Oracle SQL : Data Storage , Data Extraction and Feature Engineering
 
-*  Python : Data preprocessing and machine learning
+*  Python : Data Extraction, Data Cleaning, Data Transformation and Machine learning
 
-*  Scikit-learn : Logistic regression modeling
+*  Scikit-learn : Logistic Regression Modeling
 
-*  Pandas / NumPy : Data manipulation
+*  Pandas : Data Cleaning & Data Transformation
 
-*  Power BI : Visualization and dashboard
+*  Power BI : Data Visualization and Dashboard
 
 ## **Data Description**
 
