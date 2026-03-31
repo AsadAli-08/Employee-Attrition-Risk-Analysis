@@ -32,9 +32,9 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
 
 *  Power BI : Data Visualization and Dashboard
 
-## **Data Description**
+## **Data Model**
 
-The dataset used in this project includes employee-level HR information such as:
+### *Fact Data Tables*
 
 *  Employee master data : PROJECT_EMP_MASTER
 
