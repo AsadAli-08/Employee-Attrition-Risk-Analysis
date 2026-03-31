@@ -391,8 +391,7 @@ The Power BI dashboard provides several analytical views:
 *  Attrition Risk Prediction :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
     * KPIs :  Predicted High Risk Employee %/ High Risk Employee Count/ Medium Risk Employee Count/ Low Risk Employee Count
-    * Visuals :
-    * Observations :
+    * Visuals : Attrition Risk Distribution/ Attrition Risk Band Distribution/ Risk Heatmap (Unit-Location-Cadre-Grade)/ Risk Heatmap (Function-Cadre-Grade)/ Attrition Risk by                 Tenure Band/ Attrition Risk by Age Band/ High Risk Attrition % by Cadre-Grade
 
 *  Employee Risk Register :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
