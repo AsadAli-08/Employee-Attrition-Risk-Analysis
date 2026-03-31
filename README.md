@@ -14,15 +14,15 @@ This project builds a predictive attrition risk model that enables proactive emp
 
 ## **Tools & Technologies**
 
-a) Oracle SQL : Data extraction and feature engineering
+*  Oracle SQL : Data extraction and feature engineering
 
-b) Python : Data preprocessing and machine learning
+*  Python : Data preprocessing and machine learning
 
-c) Scikit-learn : Logistic regression modeling
+*  Scikit-learn : Logistic regression modeling
 
-d) Pandas / NumPy : Data manipulation
+*  Pandas / NumPy : Data manipulation
 
-e) Power BI : Visualization and dashboard
+*  Power BI : Visualization and dashboard
 
 ## **Data Description**
 
