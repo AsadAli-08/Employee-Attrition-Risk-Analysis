@@ -8,16 +8,12 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
 
 ## **Problem Objectives**
 
-*  Develop a workforce planning engine to forecast headcount requirements over a 6–12 month horizon
-*  Estimate future workforce supply by incorporating attrition risk and expected employee exits
-*  Model business-driven workforce demand using growth projections and historical hiring trends
-*  Identify workforce gaps (shortage/surplus) across roles, grades, and locations
-*  Generate data-driven hiring plans aligned with projected gaps and hiring capacity
-*  Enable scenario-based planning (e.g., high attrition, growth surge, hiring freeze) for strategic decision-making
-*  Provide actionable insights to HR and leadership for proactive talent management
-*  Build an interactive dashboard (Power BI) to visualize forecasts, gaps, and hiring strategies
-*  Integrate predictive outputs (attrition model) into a prescriptive decision-making framework
-*  Support cost and workforce optimization by aligning hiring strategy with business needs
+*  Build a model to forecast workforce size over the next 6 months
+*  Estimate expected employee exits using attrition predictions
+*  Understand future hiring needs based on projected workforce changes
+*  Identify workforce gaps (shortage or surplus) across roles and locations
+*  Present insights through an interactive Power BI dashboard
+*  Support HR teams in making informed workforce and hiring decisions
 
 ## **Tools & Technologies**
 
