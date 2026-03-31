@@ -34,7 +34,7 @@ The project integrates Oracle SQL, Python machine learning, and Power BI dashboa
 
 ## **Data Model**
 
-### *Master Data Tables*
+### *Master Data Tables (ORACLE DB)*
 
 *  Employee master data : PROJECT_EMP_MASTER
     *  EMP_ID
