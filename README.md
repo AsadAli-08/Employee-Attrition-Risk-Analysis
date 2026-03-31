@@ -1,6 +1,6 @@
-## Employee Attrition Risk Analysis
+# Employee Attrition Risk Analysis
 
-# **Project Overview**
+## **Project Overview**
 
 This project develops a predictive analytics system to identify employees at high risk of resignation and understand the key factors driving employee attrition.
 
