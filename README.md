@@ -2,9 +2,9 @@
 
 ## **Project Overview**
 
-This project develops a predictive analytics system to identify employees at high risk of resignation and understand the key factors driving employee attrition.
+*  This project develops a predictive analytics system to identify employees at high risk of resignation and understand the key factors driving employee attrition.
 
-The project integrates Oracle SQL, Python machine learning, and Power BI dashboards to deliver actionable workforce insights.
+*  The project integrates Oracle SQL, Python machine learning, and Power BI dashboards to deliver actionable workforce insights.
 
 ## **Problem Objectives**
 
