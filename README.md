@@ -384,7 +384,7 @@ The attrition prediction model uses Logistic Regression.
 *  Attrition History :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
     * KPIs : Resignations (Last 10 Years)/ Attrition % (Last 10 Years)/ Average Tenure at Resignation/ Average age at Resignation
-    * Visuals : Historical Attrition Trend (Last 10 years)/ Historical Attrition Heatmap/ Historical Attrition % by Unit-Function/ Historical Attrition % by Cadre-Grade/                       Historical Attrition % by Tenure Band/ Historical Attrition % by Age Band/ Employee wise Historical Attrition Details
+    * Visuals : Historical Attrition Trend (Last 10 years) (Line Chart)/ Historical Attrition Rate Heatmap (Matrix)/ Historical Attrition Rate by Unit-Function (Bar Chart)/                    Historical Attrition Rate by Cadre-Grade (Column Chart)/ Historical Attrition Rate by Tenure Band (Column Chart)/ Historical Attrition Rate by Age Band (Column Chart)/ Employee wise Historical Attrition Details (Table)
 
 *  Attrition Risk Prediction :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
