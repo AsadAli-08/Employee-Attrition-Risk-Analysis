@@ -2,7 +2,7 @@
 
 ##	**Historical Attrition Trend**
 
-###           Resignations (In specified Period) =
+####           Resignations (In specified Period) =
                         CALCULATE (
                             DISTINCTCOUNT ( FACT_Employee_Master[Emp ID] ),
                             FILTER (
