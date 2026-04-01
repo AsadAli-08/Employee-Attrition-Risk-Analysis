@@ -379,7 +379,14 @@ The attrition prediction model uses Logistic Regression.
 *  Executive Overview :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
     * KPIs : Headcount (As on Date)/ Attrition % (Last 10 Years) / Resignations (Last 10 Years)/ Predicted High Risk Employee %/ Predicted High Risk Employee Count
-    * Visuals : Key Factors impacting Attrition (Clustered Column Chart) / Historical Attrition Trend (Line Chart)/ Attrition Risk Distribution (Pie Chart)/ Historical                         Attrition by Cadre-Grade (Column Chart) / Attrition Risk Heatmap (Matrix)/ Top 50 Employees at Risk (Table) 
+    * Visuals : Key Factors impacting Attrition (Clustered Column Chart) / Historical Attrition Trend (Line Chart)/ Attrition Risk Distribution (Pie Chart)/ Historical                         Attrition by Cadre-Grade (Column Chart) / Attrition Risk Heatmap (Matrix)/ Top 50 Employees at Risk (Table)
+    * Observations :
+        *  Attrition rate has shown fluctuations over the past 10 years, but there is an overall declining trend
+        *  Executive Trainees and Supervisor Trainees have experienced the highest attrition
+        *  Units 15 and 26 (Anonymised) have consistently recorded higher attrition levels
+        *  Function 347 (Anonymised) shows the highest attrition among all functions
+        *  Attrition is highest in employees with 0–10 years of tenure and decreases as tenure increases
+        *  Employees in the 20–30 age group have the highest attrition, with attrition reducing as age increases
 
 *  Attrition History :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
