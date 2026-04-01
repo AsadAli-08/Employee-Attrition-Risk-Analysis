@@ -380,6 +380,12 @@ The attrition prediction model uses Logistic Regression.
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
     * KPIs : Headcount (As on Date)/ Attrition % (Last 10 Years) / Resignations (Last 10 Years)/ Predicted High Risk Employee %/ Predicted High Risk Employee Count
     * Visuals : Key Factors impacting Attrition (Clustered Column Chart) / Historical Attrition Trend (Line Chart)/ Attrition Risk Distribution (Pie Chart)/ Historical                         Attrition by Cadre-Grade (Column Chart) / Attrition Risk Heatmap (Matrix)/ Top 50 Employees at Risk (Table)
+
+
+*  Attrition History :
+    * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
+    * KPIs : Resignations (Last 10 Years)/ Attrition % (Last 10 Years)/ Average Tenure at Resignation/ Average age at Resignation
+    * Visuals : Historical Attrition Trend (Last 10 years) (Line Chart)/ Historical Attrition Rate Heatmap (Matrix)/ Historical Attrition Rate by Unit-Function (Bar Chart)/                    Historical Attrition Rate by Cadre-Grade (Column Chart)/ Historical Attrition Rate by Tenure Band (Column Chart)/ Historical Attrition Rate by Age Band (Column Chart)/ Employee wise Historical Attrition Details (Table)
     * Observations :
         *  Attrition rate has shown fluctuations over the past 10 years, but there is an overall declining trend
         *  Executive Trainees and Supervisor Trainees have experienced the highest attrition
@@ -387,11 +393,6 @@ The attrition prediction model uses Logistic Regression.
         *  Function 347 (Anonymised) shows the highest attrition among all functions
         *  Attrition is highest in employees with 0–10 years of tenure and decreases as tenure increases
         *  Employees in the 20–30 age group have the highest attrition, with attrition reducing as age increases
-
-*  Attrition History :
-    * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
-    * KPIs : Resignations (Last 10 Years)/ Attrition % (Last 10 Years)/ Average Tenure at Resignation/ Average age at Resignation
-    * Visuals : Historical Attrition Trend (Last 10 years) (Line Chart)/ Historical Attrition Rate Heatmap (Matrix)/ Historical Attrition Rate by Unit-Function (Bar Chart)/                    Historical Attrition Rate by Cadre-Grade (Column Chart)/ Historical Attrition Rate by Tenure Band (Column Chart)/ Historical Attrition Rate by Age Band (Column Chart)/ Employee wise Historical Attrition Details (Table)
 
 *  Attrition Risk Prediction :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
