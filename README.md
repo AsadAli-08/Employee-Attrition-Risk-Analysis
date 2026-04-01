@@ -389,7 +389,7 @@ The attrition prediction model uses Logistic Regression.
 *  Attrition Risk Prediction :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
     * KPIs :  Predicted High Risk Employee %/ High Risk Employee Count/ Medium Risk Employee Count/ Low Risk Employee Count
-    * Visuals : Attrition Risk Distribution/ Attrition Risk Band Distribution/ Risk Heatmap (Unit-Location-Cadre-Grade)/ Risk Heatmap (Function-Cadre-Grade)/ Attrition Risk by                 Tenure Band/ Attrition Risk by Age Band/ High Risk Attrition % by Cadre-Grade
+    * Visuals : Attrition Risk Probability Distribution (Column Chart)/ Attrition Risk Band Distribution (Pie Chart)/ Attrition Risk Heatmap (Matrix)/ Attrition Risk by                 Tenure Band (Bar Chart)/ Attrition Risk by Age Band (Bar Chart)/ Attrition Risk by Cadre-Grade (Bar Chart)
 
 *  Employee Risk Register :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
