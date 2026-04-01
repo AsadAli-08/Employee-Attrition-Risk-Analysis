@@ -2,7 +2,7 @@
 
 ##	**Historical Attrition Trend**
 
-###           Resignations Till Date =
+###           Resignations (In specified Period) =
                         CALCULATE (
                             DISTINCTCOUNT ( FACT_Employee_Master[Emp ID] ),
                             FILTER (
@@ -37,6 +37,26 @@
                                       )
                                   )
                           ) / 2
+
+
+###              Attrition% =
+                        [Resignations] / [Avg_HeadCount]              
+
+
+###              Tenure at Resig =
+                          DATEDIFF ( FACT_Employee_Master[DOJ], FACT_Employee_Master[DOR], YEAR )
+
+
+###              Average Tenure at Resignation =
+                         AVERAGEX (
+                              FILTER ( FACT_Employee_Master, FACT_Employee_Master[Reason] = "Resignation" ),
+                              FACT_Employee_Master[Tenure at Resig]
+                         )
+
+###              Age at Resignation =
+                          DATEDIFF ( FACT_Employee_Master[DOB], FACT_Employee_Master[DOR], YEAR )
+
+                         
 
 
 ##	**Attrition Risk Predictive Analysis**
