@@ -414,6 +414,9 @@ The attrition prediction model uses Logistic Regression.
 
 *  Attrition Driver Diagnostics :
     * Visuals : Top Factors impacting Attrition Risk (Bar Chart) / Factor wise Impact Score (Clustered Column Chart)
+    * Observations  :
+        *  Factors with highest positive coefficient (positively driving attrition) include Compa Ratio, Absence Days (6 Months) & Incentive Volatility
+        *  Factors with highest negative coefficient (negatively driving attrition) include Age, Tenure, Curr Perf Score & Salary Growth (1 Year)
  
 ## **Key Insights**
 
