@@ -59,8 +59,22 @@
                          
 
 
-##	**Attrition Risk Predictive Analysis**
+##	**2) Attrition Risk Predictive Analysis**
 
+####              High Risk Employee =
+                            CALCULATE (
+                                COUNT ( FACT_Resignation_probab[EMP_ID] ),
+                                FACT_Resignation_probab[Risk_Band] = "High"
+                                    && FACT_Resignation_probab[DOR] > TODAY ()
+                            )
+
+
+####              High Risk Employee % =
+                            CALCULATE (
+                                COUNT ( FACT_Resignation_probab[EMP_ID] ),
+                                FACT_Resignation_probab[Risk_Band] = "High"
+                                    && FACT_Resignation_probab[DOR] > TODAY ()
+                            ) / [Headcount]
 
 
 ##	**Attrition Risk Register**
