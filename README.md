@@ -382,7 +382,7 @@ The attrition prediction model uses Logistic Regression.
     * Visuals : Key Factors impacting Attrition (Clustered Column Chart) / Historical Attrition Trend (Line Chart)/ Attrition Risk Distribution (Pie Chart)/ Historical                         Attrition by Cadre-Grade (Column Chart) / Attrition Risk Heatmap (Matrix)/ Top 50 Employees at Risk (Table)
 
 
-*  Attrition History :
+*  Historical Attrition Trend :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
     * KPIs : Resignations (Last 10 Years)/ Attrition % (Last 10 Years)/ Average Tenure at Resignation/ Average age at Resignation
     * Visuals : Historical Attrition Trend (Last 10 years) (Line Chart)/ Historical Attrition Rate Heatmap (Matrix)/ Historical Attrition Rate by Unit-Function (Bar Chart)/                    Historical Attrition Rate by Cadre-Grade (Column Chart)/ Historical Attrition Rate by Tenure Band (Column Chart)/ Historical Attrition Rate by Age Band (Column Chart)/ Employee wise Historical Attrition Details (Table)
@@ -398,6 +398,14 @@ The attrition prediction model uses Logistic Regression.
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
     * KPIs :  Predicted High Risk Employee %/ High Risk Employee Count/ Medium Risk Employee Count/ Low Risk Employee Count
     * Visuals : Attrition Risk Probability Distribution (Column Chart)/ Attrition Risk Band Distribution (Pie Chart)/ Attrition Risk Heatmap (Matrix)/ Attrition Risk by                 Tenure Band (Bar Chart)/ Attrition Risk by Age Band (Bar Chart)/ Attrition Risk by Cadre-Grade (Bar Chart)
+    * Observations  :
+        *  Around 4.74% of employees (1,292 employees) are at high risk of attrition
+        *  Majority of employees (~89%) are at low risk, while ~6% fall in the medium risk category
+        *  Executive and Supervisor Trainee cadres show the highest concentration of high-risk employees
+        *  Employees with 0–10 years of tenure are significantly more prone to attrition risk
+        *  The 18–25 age group has the highest attrition risk, which reduces with increasing age
+        *  Units 5, 6, 16, 28, 30, and 34 (Anonymised) have a higher proportion of at-risk employees
+        *  Functions 342, 347, 361, 354, and 358 (Anonymised) show the highest attrition risk levels
 
 *  Employee Risk Register :
     * Filters : Date/ Unit/ Location/ Cadre/ Grade/ Gender/ Function
