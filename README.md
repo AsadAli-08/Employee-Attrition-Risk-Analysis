@@ -415,8 +415,11 @@ The attrition prediction model uses Logistic Regression.
 *  Attrition Driver Diagnostics :
     * Visuals : Top Factors impacting Attrition Risk (Bar Chart) / Factor wise Impact Score (Clustered Column Chart)
     * Observations  :
-        *  Factors with highest positive coefficient (positively driving attrition) include Compa Ratio, Absence Days (6 Months) & Incentive Volatility
-        *  Factors with highest negative coefficient (negatively driving attrition) include Age, Tenure, Curr Perf Score & Salary Growth (1 Year)
+        *  Compa Ratio, Absence Days (last 6 months), and Incentive Volatility are the strongest factors increasing attrition risk
+        *  Age, Tenure, Current Performance Score, and Salary Growth (1 year) are associated with lower attrition risk
+        *  The largest differences between high-risk and low-risk employees are seen in Current Performance Score, Incentive Volatility, and Age
+        *  Tenure, Salary Growth, Current Performance Score, Incentive Volatility, and Age impact a large portion of the workforce
+        *  Overall, Current Performance Score, Incentive Volatility, and Age emerge as the most impactful drivers of attrition
  
 ## **Key Insights**
 
