@@ -9,14 +9,10 @@
 *  It enables HR teams to move from reactive reporting to proactive talent management by predicting attrition risk and highlighting critical risk segments across the organization.
 
 ## **Problem Objectives**
-
-*  Build a model to forecast workforce size over the next 6 months
   
 *  Estimate expected employee exits using attrition predictions
   
 *  Understand future hiring needs based on projected workforce changes
-  
-*  Identify workforce gaps (shortage or surplus) across roles and locations
   
 *  Present insights through an interactive Power BI dashboard
   
